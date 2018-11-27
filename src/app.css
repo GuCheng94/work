@@ -1,0 +1,22 @@
+.app {
+  background: hotpink;
+  padding: 20px;
+}
+
+.cui-enter {
+	margin-left: -200px;
+	transition-duration: 500ms;
+}
+
+.cui-enter-active {
+	margin-left: 0;
+}
+
+.cui-leave {
+	margin-left: 0;
+	transition-duration: 30000ms;
+}
+
+.cui-leave-active {
+	margin-left: 500px;
+}
