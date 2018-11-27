@@ -28,8 +28,6 @@ export default class App extends Component {
         })
       })
   }
-  //const dataOne = data.filter(item=>item.age==="this.refs.ipt.value")
-    //console.log(dataOne);
   render() {
     console.log(this.state.list)
     return (
